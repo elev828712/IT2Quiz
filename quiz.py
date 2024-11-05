@@ -75,7 +75,11 @@ class Quiz:
         while not self.erFerdig():
 
             spm = self.hentSpørsmål() # Henter et nytt spørsmål
+<<<<<<< HEAD
             spm.stillSpørsmål()
+=======
+            spm.stillSpørsmål() #test en helt annen løsning
+>>>>>>> 79e0506db591ce438f2cc5d4e75dbc3097ee9e88
             svar=int(input("Hva er riktig svaralternativ?")) #tar inn et svaralternativ. Disse går fra 1 og oppover.
 
             if spm.erRiktig(svar):
